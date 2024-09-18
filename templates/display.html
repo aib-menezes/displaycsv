@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualização dos dados</title>
+    <style>
+        .data {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .data th, .data td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        .data th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualização dos Dados do Arquivo CSV</h1>
+
+    <!-- Aqui você pode adicionar o conteúdo dinâmico com os dados do CSV -->
+    <div>
+        {{ tables|safe }}
+    </div>
+</body>
+</html>
